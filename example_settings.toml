@@ -1,0 +1,6 @@
+[e2few]
+host = "https://<hostname>"
+token = "<databrickstoken>"
+jobs-api-version = 2.0
+sim_search_endpoint = "/model-endpoint/<model_name>/<model_stage>/invocations"
+movie_search_endpoint ="/model-endpoint/<model_name>/<model_stage>/invocations"
