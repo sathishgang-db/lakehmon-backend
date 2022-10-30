@@ -67,7 +67,6 @@ def simsearch(utterance: str):
 @app.get("/moviesearch")
 def get_movies(utterance: str):
     url = f"{config.host}{config.movie_search_endpoint}"
-    # payload = dict(data=utterance)
     payload = json.dumps(dict(instances=[utterance]))
     print(payload)
     headers = {

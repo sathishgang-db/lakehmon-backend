@@ -1,4 +1,5 @@
 settings.toml
+.vscode/
 *.index
 # Byte-compiled / optimized / DLL files
 __pycache__/
